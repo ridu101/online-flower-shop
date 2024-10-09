@@ -1,0 +1,137 @@
+/* font styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* universal selector */
+
+/* header section start from here */
+.banner-section-container {
+
+    max-width: 1920px;
+    height: 750px;
+
+    background-color: rgba(229, 84, 115, 0.1);
+}
+
+.banner-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+
+}
+
+.banner-text-container {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.banner-image-container {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+}
+
+.banner-text-container button {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+
+}
+
+/* our featured section */
+.featued-container {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.fetured-img-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.img-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-right: 20px;
+
+}
+
+.img-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding-top: 56px;
+    margin-right: 20px;
+}
+
+.img-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    height: 430px;
+}
+
+/* support section start here */
+.support-parent {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+
+/* hot sell contant starts here */
+.hot-deal-content {
+    margin-top: 100px;
+    display: flex;
+    max-width: 1920px;
+    height: 600px;
+    background-color: rgba(229, 84, 115, 0.05);
+    justify-content: center;
+    align-items: center;
+    
+}
+.hot-deal-texts{
+    text-align: center;
+    margin-right: 200px;
+}
+
+/* instagram section start here */
+.instagram-content{
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    
+}
+.instagram-img-parent{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
