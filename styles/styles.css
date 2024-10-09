@@ -64,12 +64,13 @@ body {
     align-items: center;
     text-align: center;
     margin-top: 50px;
+    gap: 20px;
 }
 
 .img-1 {
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    margin-right: 20px;
+    
 
 }
 
@@ -77,7 +78,8 @@ body {
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding-top: 56px;
-    margin-right: 20px;
+    
+    
 }
 
 .img-3 {
@@ -112,26 +114,81 @@ body {
     background-color: rgba(229, 84, 115, 0.05);
     justify-content: center;
     align-items: center;
-    
+
 }
-.hot-deal-texts{
+
+.hot-deal-texts {
     text-align: center;
     margin-right: 200px;
 }
 
+.hot-deal-texts button {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+}
+
 /* instagram section start here */
-.instagram-content{
+.instagram-content {
     margin-top: 100px;
     display: block;
     text-align: center;
     justify-content: center;
-    
+
 }
-.instagram-img-parent{
+
+.instagram-img-parent {
     margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
-    
+
+}
+
+/* get deal start here */
+.get-leatest-container {
+ 
+    text-align: center;
+    background-image: url('../assests/images/latest-deals-bg.png');
+    width: 80%;
+    margin: 100px auto;
+    width: 1440px;
+    height: 449px;
+
+}
+
+.get-texts {
+    margin-top: 50px;
+    padding-top: 150PX;
+
+
+}
+
+.get-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.get-input button {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+}
+/* footer section */
+
+.footer{
+    background-color: black;
+    margin: 100px auto 0px auto;
+    width: 1920px;
+    height: 449px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 180px;
 }
